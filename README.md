@@ -11,8 +11,6 @@
 * [Express](https://expressjs.com/pt-br/api.html)
 * [JWT Token](https://jwt.io/introduction/)
 * [Postgres](https://www.postgresql.org/docs/)
-* [MongoDB](https://docs.mongodb.com/)
-* [Redis](https://redis.io/documentation)
 * [Docker](https://docs.docker.com/)
 
 
