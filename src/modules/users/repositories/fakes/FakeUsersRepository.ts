@@ -3,7 +3,7 @@ import { uuid } from 'uuidv4';
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 
 import ICreateUsersDTO from '@modules/users/dtos/ICreateUserDTO';
-import IFindAllProvidersDTO from '../dtos/IFindAllProvidersDTO';
+import IFindAllProvidersDTO from '../../dtos/IFindAllProvidersDTO';
 
 import User from '../../infra/typeorm/entities/User';
 
