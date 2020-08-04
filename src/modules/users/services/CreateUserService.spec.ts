@@ -24,13 +24,13 @@ describe('CreateUser', () => {
   });
 
   it('should be able to create a new user', async () => {
-    const appointment = await createUser.execute({
+    const user = await createUser.execute({
       name: 'John Doe',
       email: 'john@example.com',
       password: '123456',
     });
 
-    expect(appointment).toHaveProperty('id');
+    expect(user).toHaveProperty('id');
   });
 
   it('should not be able to create a user with the same email', async () => {
